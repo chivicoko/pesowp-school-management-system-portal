@@ -50,6 +50,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -4481,15 +4482,15 @@ p {
 
 .blink1{
     animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 500ms steps(34) infinite;
+               blinkCursor 400ms steps(34) infinite;
     -webkit-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 500ms steps(34) infinite;
+               blinkCursor 400ms steps(34) infinite;
     -moz-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 500ms steps(34) infinite;
+               blinkCursor 400ms steps(34) infinite;
     -ms-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 500ms steps(34) infinite;
+               blinkCursor 400ms steps(34) infinite;
     -o-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 500ms steps(34) infinite;
+               blinkCursor 400ms steps(34) infinite;
   }
 
   @keyframes typewriter {
@@ -4515,7 +4516,7 @@ p {
     width: 100vw;
     background: url(../images/laptop3.jpg) center center/cover no-repeat fixed padding-box border-box #ccc;
     /* background: url(../images/globe.jpeg) center center/cover no-repeat fixed padding-box border-box #ccc; */
-    box-shadow: inset 0 0 0 2000px #25183e91;
+    box-shadow: inset 0 0 0 2000px #25183e9e;
   }
 
   @keyframes spinners {
