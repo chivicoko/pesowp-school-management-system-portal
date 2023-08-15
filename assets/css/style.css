@@ -1,8 +1,3 @@
-/*----------------------------------------------------------------------------------
-
-Project     :   Omexo – Education & Online Courses HTML Template
-
--------------------------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------------------------
 
@@ -726,6 +721,7 @@ p {
     color: #fff;
     font-weight: 700;
     margin-bottom: 20px;
+    -webkit-text-stroke: 3px #ee5a30;
 }
 
 .caption-content p {
@@ -4469,4 +4465,135 @@ p {
 .footer-bottom-area {
     background: #0e0a38;
     padding: 20px 0;
+}
+
+/* vc */
+/* blink animation */
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-right: 4px solid #FF630E;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.blink1{
+    animation: typewriter 8s steps(34) 1s 1 both,
+               blinkCursor 500ms steps(34) infinite;
+    -webkit-animation: typewriter 8s steps(34) 1s 1 both,
+               blinkCursor 500ms steps(34) infinite;
+    -moz-animation: typewriter 8s steps(34) 1s 1 both,
+               blinkCursor 500ms steps(34) infinite;
+    -ms-animation: typewriter 8s steps(34) 1s 1 both,
+               blinkCursor 500ms steps(34) infinite;
+    -o-animation: typewriter 8s steps(34) 1s 1 both,
+               blinkCursor 500ms steps(34) infinite;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 72vw;
+    }
+  }
+  
+  @keyframes blinkCursor{
+    from {
+      border-right-color: #FF630E;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  .rotation {
+    height: 500px;
+    width: 100vw;
+    background: url(../images/laptop3.jpg) center center/cover no-repeat fixed padding-box border-box #ccc;
+    /* background: url(../images/globe.jpeg) center center/cover no-repeat fixed padding-box border-box #ccc; */
+    box-shadow: inset 0 0 0 2000px #25183e91;
+  }
+
+  @keyframes spinners {
+    100% { transform: rotate(360deg); }
+}
+
+@-moz-keyframes spinners { 
+    100% { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spinners { 
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@-o-keyframes spinners { 
+    100% { -o-transform: rotate(360deg); }
+}
+
+@-ms-keyframes spinners { 
+    100% { -ms-transform: rotate(360deg); }
+}
+
+  @keyframes scalers {
+    100% { transform: scale(1.5); }
+}
+
+@-moz-keyframes spinners { 
+    100% { -moz-transform: scale(1.5); }
+}
+
+@-webkit-keyframes spinners { 
+    100% { -webkit-transform: scale(1.5); }
+}
+
+@-o-keyframes spinners { 
+    100% { -o-transform: scale(1.5); }
+}
+
+@-ms-keyframes spinners { 
+    100% { -ms-transform: scale(1.5); }
+}
+
+.circle2, .circle3, .circle4  {
+    animation: spinners infinite 5s linear;
+    -webkit-animation: spinners infinite 5s linear;
+    -moz-animation: spinners infinite 5s linear;
+    -ms-animation: spinners infinite 5s linear;
+    -o-animation: spinners infinite 5s linear;
+}
+
+.circle1 {
+    animation: scalers infinite 5s linear, spinners infinite 5s linear;
+    -webkit-animation: scalers infinite 5s linear, spinners infinite 5s linear;
+    -moz-animation: scalers infinite 5s linear, spinners infinite 5s linear;
+    -ms-animation: scalers infinite 5s linear, spinners infinite 5s linear;
+    -o-animation: scalers infinite 5s linear, spinners infinite 5s linear;
+}
+
+.circle1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.circle2 {
+    position: relative;
+    top: -20px;
+    left: -280px;
+}
+
+.circle3 {
+    position: relative;
+    top: -40px;
+    left: -650px;
+}
+
+.circle4 {
+    position: relative;
+    top: 50px;
+    left: -850px;
 }

@@ -156,3 +156,9 @@ navLinks.forEach(link => {
         link.classList.add("active");
     }
 });
+
+
+// vc
+setInterval(() => {
+    document.querySelector('.text').classList.toggle('blink1');
+}, 10000);

@@ -1558,4 +1558,37 @@
         font-size: 18px;
     }
 
+    .caption-content .text {
+        font-size: 20px;
+        -webkit-text-stroke: 1px #ee5a30;
+    }
+        
+    .circle1 {
+        position: relative;
+        top: 105px;
+        left: 45px;
+        width: 300px;
+    }
+
+    .circle2 {
+        position: relative;
+        top: -100px;
+        left: 190px;
+        width: 110px;
+    }
+
+    .circle3 {
+        position: relative;
+        top: -130px;
+        left: 0;
+        width: 130px;
+    }
+
+    .circle4 {
+        position: relative;
+        top: -70px;
+        left: -115px;
+        width: 130px;
+    }
+
 }
