@@ -618,7 +618,8 @@
 
     .header-top-wrap,
     .main-menu-wrap {
-        display: block;
+        display: flex;
+        justify-content: space-between;
     }
 
     .header-contact-info {

@@ -352,11 +352,11 @@ p {
 }
 
 .main-menu-area {
-    -ms-flex-preferred-size: 55%;
-    flex-basis: 55%;
+    -ms-flex-preferred-size: 80%;
+    flex-basis: 80%;
 }
 
-.header-cart {
+/* .header-cart {
     -ms-flex-preferred-size: 6%;
     flex-basis: 6%;
 }
@@ -364,7 +364,7 @@ p {
 .header-log-reg {
     -ms-flex-preferred-size: 19%;
     flex-basis: 19%;
-}
+} */
 
 .main-menu-area ul li {
     display: inline-block;
