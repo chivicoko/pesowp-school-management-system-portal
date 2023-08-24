@@ -1546,9 +1546,50 @@
         display: block
     }
 
-    .header-top-area {
-        display: none;
-    }
+    
+.header-top-area {
+    padding: 2px 0;
+}
+
+.header-top-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-course-search {
+    display: none;
+}
+
+.header-contact-info {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    /* padding-right: 25px */
+}
+
+.header-contact-info ul {
+    display: flex;
+}
+
+.header-contact-info li {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header-contact-info li i {
+    display: none;
+}
+
+.header-top-social {
+    display: none;
+}
+
 
     .sidebar-content .search-form input {
         height: 48px;
