@@ -25,6 +25,21 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--responsive css-->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <style>
+        @media (max-width: 600px) {
+            .two-bg, .one-bg, .three-bg {
+                display: none;
+            }
+            .two-bg-area ,.three-bg-area ,.one-bg-area {
+                width: 100% !important;
+            }
+            /* .two-bg-area ,.three-bg-area {
+                padding-left: 0 !important;
+            } */
+        }
+        
+    </style>
 </head>
 
 <body>
@@ -165,20 +180,20 @@
         <div class="container">
             <div class="row">
                 <!--start about-img-->
-                <div class="col-md-6">
-                    <div class="about-img">
-                        <img src="assets/images/about-img-1.jpg" class="img-fluid" alt="image">
-                        <div class="about-img-inner">
-                            <img src="assets/images/about-img-2.jpg" class="img-fluid" alt="image">
+                <div class="col-md-6 pt-5">
+                    <div class="rounded">
+                        <img src="assets/images/about-img-1-2.jpg" class="img-fluid rounded" alt="image">
+                        <!-- <div class="about-img-inner">
+                            <img src="assets/images/about-img-2-2.jpg" class="img-fluid" alt="image">
                         </div>
                         <div class="about-img-two">
-                            <img src="assets/images/about-img-3.jpg" class="img-fluid" alt="image">
-                        </div>
+                            <img src="assets/images/about-img-3-2.jpg" class="img-fluid" alt="image">
+                        </div> -->
                     </div>
                 </div>
                 <!--end about-img-->
                 <!--start about-cont-->
-                <div class="col-md-6 pt-5 mt-5">
+                <div class="col-md-6">
                     <div class="about-cont d-table">
                         <div class="align-middle d-table-cell">
                             <h4>Benefits of School Management Systems</h4>
@@ -194,212 +209,215 @@
     </section>
     <!--end about-area-->
     
+    
+    <!-- <section class="bg-gray">
+        <div class="container-fluid">
+            <div class="row bg-fixed-area">
+                <div class="normal">
+                    <div class="slant">
+                        
+                    </div>
+                </div>
+                <div class="bg-fixed">
+
+                    <div class="text-white p-3">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="four">
+                            <h3 class="text-white">Mail Management (CoMail)</h3>
+                            <p class="pb-0 mb-0 text-white">The Mail Management module, known as CoMail, is an IoT application developed by Premium ESOWP Limited...</p>
+                            <a href="mail-management.html"><i class="fa fa-arrow-right text-white"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
     <!--start why choose area-->
     <section class="why-choose-area three bg-gray">
+
         <div class="container">
             <div class="row">
-                <!--start why choose heading-->
                 <div class="col-lg-8 offset-lg-2">
                     <div class="sec-heading  text-center">
                         <h4>Best School Management System</h4>
                         <h2>Some of Our Modules</h2>
                     </div>
                 </div>
-                <!--end why choose heading-->
             </div>
+
             <div class="row text-center">
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
+                <div class="row mt-3"> 
+                    <div class="two-bg" style="width: 40%;"><img src="assets/images/1-bg.jpg" alt="2-bg" style="border-top-left-radius: 50%; width:100%; height: 650px;"></div>
+                    <div class="two-bg-area row pl-4" style="width: 60%;">
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Mail Management (CoMail)</h4>
+                                    <p class="pb-0 mb-0">The Mail Management module, known as CoMail, is an IoT application developed by Premium ESOWP Limited...</p>
+                                    <a href="mail-management.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Mail Management (CoMail)</h3>
-                            <p class="text-justify pb-0 mb-0">The Mail Management module, known as CoMail, is an IoT application developed by Premium ESOWP Limited.</p>
-                            <div class="btn-default pt-0">
-                                <a href="mail-management.html">Read More</a>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>LMS / Elibrary Module</h4>
+                                    <p class="pb-0 mb-0">The LMS/E-library module provides a digital platform for learning and knowledge transfer Lorem ipsum dolor sit amet...</p>
+                                    <a href="mail-management.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Payroll Module</h4>
+                                    <p class="pb-0 mb-0">The payroll module offers schools a flexible and cost-effective in-house payroll management solution...</p>
+                                    <a href="payroll.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Attendance Module</h3>
+                                    <p class="pb-0 mb-0">The Attendance Management module offers two implementations: software-based and card-based...</p>
+                                    <a href="attendance-management.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
+
+                <div class="row mt-5">
+                    <div class="two-bg-area row pr-4" style="width: 60%;">
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Payment Module</h4>
+                                    <p class="pb-0 mb-0">The Payment Module is a versatile solution enabling students to make payments to the school using their preferred...</p>
+                                    <a href="payment.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>LMS / Elibrary Module</h3>
-                            <p class="text-justify pb-0 mb-0">The LMS/E-library module provides a digital platform for learning and knowledge transfer.</p>
-                            <div class="btn-default pt-0">
-                                <a href="lms-elibrary.html">Read More</a>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Finance Management Module</h4>
+                                    <p class="pb-0 mb-0">The Finance Management Module streamlines financial transactions in institutions, ensuring accuracy and security...</p>
+                                    <a href="finance-management.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Admission Module</h4>
+                                    <p class="pb-0 mb-0">The Admission Module is a digital tool designed to streamline the admissions process in educational institutions...</p>
+                                    <a href="admission.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Results Management Module</h4>
+                                    <p class="pb-0 mb-0">The Test and Exam Results Management module simplifies student assessment by allowing easy input of...</p>
+                                    <a href="test-exam-management.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one-bg d-lg-block d-md-block d-sm-none" style="width: 40%;"><img class="d-lg-block d-md-block d-sm-none" src="assets/images/3-bg.jpg" alt="2-bg" style="border-top-right-radius: 50%; width:100%; height: 650px;"></div>
+                </div>
+            
+                <div class="row mt-5">
+                    <div class="three-bg d-lg-block d-md-block d-sm-none" style="width: 40%;"><img class="d-lg-block d-md-block d-sm-none" src="assets/images/2-bg.jpg" alt="2-bg" style="border-top-left-radius: 50%; width:100%; height: 650px;"></div>
+                    <div class="three-bg-area row pl-4" style="width: 60%;">
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Hostel / Facility Management</h4>
+                                    <p class="pb-0 mb-0">The Hostel/Facility Management module enables schools to efficiently manage data related to student hostels and facilities...</p>
+                                    <a href="admission.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>iNotify<sup>TM</sup> Module</h4>
+                                    <p class="pb-0 mb-0">The iNotify™ module is designed for efficient school communication, allowing the notification of students about their performance...</p>
+                                    <a href="admission.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Students & Staff Records Management Module</h4>
+                                    <p class="pb-0 mb-0">The Students and Staff Record Management module simplifies the school's management of student and staff details...</p>
+                                    <a href="students-staff-record-management.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 pt-4">
+                            <div class="bg-white rounded p-4">
+                                <div class="why-choose-icon three">
+                                    <img src="assets/images/icons/teach.svg" alt="image">
+                                </div>
+                                <div class="four">
+                                    <h4>Assets & Inventory Management Module</h4>
+                                    <p class="pb-0 mb-0">The Assets and Inventory Management module is a comprehensive tool for schools to efficiently oversee their assets...</p>
+                                    <a href="assets-and-inventory-management.html"><i class="fa fa-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Payroll Module</h3>
-                            <p class="text-justify pb-0 mb-0">The payroll module offers schools a flexible and cost-effective in-house payroll management solution.</p>
-                            <div class="btn-default pt-0">
-                                <a href="payroll.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Attendance Management Module</h3>
-                            <p class="text-justify pb-0 mb-0">The Attendance Management module offers two implementations: software-based and card-based.</p>
-                            <div class="btn-default pt-0">
-                                <a href="attendance-management.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Assets & Inventory Management Module</h3>
-                            <p class="text-justify pb-0 mb-0">The Assets and Inventory Management module is a comprehensive tool for schools to efficiently oversee their assets.</p>
-                            <div class="btn-default pt-0">
-                                <a href="assets-and-inventory-management.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Payment Module</h3>
-                            <p class="text-justify pb-0 mb-0">The Payment Module is a versatile solution enabling students to make payments to the school using their preferred debit cards from anywhere.</p>
-                            <div class="btn-default pt-0">
-                                <a href="payment.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Finance Management Module</h3>
-                            <p class="text-justify pb-0 mb-0">The Finance Management Module streamlines financial transactions in institutions, ensuring accuracy and security.</p>
-                            <div class="btn-default pt-0">
-                                <a href="finance-management.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Admission Module</h3>
-                            <p class="text-justify pb-0 mb-0">The Admission Module is a digital tool designed to streamline the admissions process in educational institutions.</p>
-                            <div class="btn-default pt-0">
-                                <a href="admission.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Hostel / Facility Management</h3>
-                            <p class="text-justify pb-0 mb-0">The Hostel/Facility Management module enables schools to efficiently manage data related to student hostels and facilities.</p>
-                            <div class="btn-default pt-0">
-                                <a href="hostel-facility-management.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>iNotify<sup>TM</sup> Module</h3>
-                            <p class="text-justify pb-0 mb-0">The iNotify™ module is designed for efficient school communication, allowing the notification of students about their performance and sending reminders, activity notices, and other messages.</p>
-                            <div class="btn-default pt-0">
-                                <a href="inotify.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Test & Exam Results Management Module</h3>
-                            <p class="text-justify pb-0 mb-0">The Test and Exam Results Management module simplifies student assessment by allowing easy input of results and generating customized reports.</p>
-                            <div class="btn-default pt-0">
-                                <a href="test-exam-management.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
-                <!--start choose single-->
-                <div class="col-md-4">
-                    <div class="choose-single three">
-                        <div class="why-choose-icon three">
-                            <img src="assets/images/icons/teach.svg" alt="image">
-                        </div>
-                        <div class="why-choose-con three px-3">
-                            <h3>Students & Staff Records Management Module</h3>
-                            <p class="text-justify pb-0 mb-0">The Students and Staff Record Management module simplifies the school's management of student and staff details.</p>
-                            <div class="btn-default pt-0">
-                                <a href="students-staff-record-management.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end choose single-->
                 
             </div>
         </div>
