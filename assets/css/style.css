@@ -4605,3 +4605,127 @@ p {
 .footer-bottom-area p a:hover {
     color: #ff620ebd;
 }
+
+/* feature section of home page */
+.feacture-section {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-circle-1, .feature-circle-2, .feature-circle-3 {
+    z-index: -90;
+}
+
+.feature-circle-3 {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-circle-2 {
+    width: 250px;
+    height: 250px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-circle-1 {
+    width: 300px;
+    height: 300px;
+    background: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: calc(100vw/2.5);
+}
+
+.features-1, .features-2, .features-3, .features-4, .features-5, .features-6, .features-7, .features-8, .features-9, .features-10, .features-11, .features-12 {
+    height: 120px;
+    width: 170px;
+    background: #FF630E;
+    font-weight: 600;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.features-1 {
+    position: relative;
+    top: -320px;
+    left: 405px;
+}
+
+.features-2 {
+    position: relative;
+    top: -270px;
+    left: 480px;
+}
+
+.features-3 {
+    position: relative;
+    top: -140px;
+    left: 490px;
+}
+
+.features-4 {
+    position: relative;
+    top: -140px;
+    left: -180px;
+}
+
+.features-5 {
+    position: relative;
+    top: -270px;
+    left: -150px;
+}
+
+.features-6 {
+    position: relative;
+    top: 150px;
+    left: -370px;
+}
+
+.features-7 {
+    position: relative;
+    top: 260px;
+    left: -340px;
+}
+
+.features-8 {
+    position: relative;
+    top: 0;
+    left: -650px;
+}
+
+.features-9 {
+    position: relative;
+    top: 320px;
+    left: -370px;
+}
+
+.features-10 {
+    position: relative;
+    top: 260px;
+    left: -300px;
+}
+
+.features-11 {
+    position: relative;
+    top: 150px;
+    left: -290px;
+}
+
+.features-12 {
+    position: relative;
+    top: 0;
+    left: -300px;
+}
