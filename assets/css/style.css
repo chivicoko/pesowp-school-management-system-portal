@@ -4597,3 +4597,11 @@ p {
     top: 50px;
     left: -850px;
 }
+
+.footer-bottom-area p a {
+    color: #FF630E;
+}
+
+.footer-bottom-area p a:hover {
+    color: #ff620ebd;
+}
