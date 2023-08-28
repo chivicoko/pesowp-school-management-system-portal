@@ -4515,7 +4515,6 @@ p {
     height: 500px;
     width: 100vw;
     background: url(../images/laptop3.jpg) center center/cover no-repeat fixed padding-box border-box #ccc;
-    /* background: url(../images/globe.jpeg) center center/cover no-repeat fixed padding-box border-box #ccc; */
     box-shadow: inset 0 0 0 2000px #25183e9e;
   }
 
@@ -4598,29 +4597,3 @@ p {
     top: 50px;
     left: -850px;
 }
-
-/* cancelled */
-.normal {
-    width: 60%;
-    /* background: #fff; */
-}
-
-.slant {
-    transform: skewX(-45deg);
-    height: 100%;
-    position: relative;
-    right: 100px;
-    bottom: 0;
-    background: #FF630E;
-}
-
-.bg-fixed {
-    width: 40%;
-    /* height: 200px; */
-    /* background: url(../images/laptop3.jpg) center center/cover no-repeat fixed padding-box border-box #ccc; */
-}
-
-.bg-fixed-area {
-    background: url(../images/pexels-king-cyrus-studios-6371893.jpg) center center/cover no-repeat fixed padding-box border-box #ccc;
-}
-/* end of cancelled */
