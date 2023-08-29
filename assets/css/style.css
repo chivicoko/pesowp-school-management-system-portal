@@ -3638,7 +3638,7 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 .page-banner-area {
-    background-image: url(../images/banner-6.jpg);
+    background-image: url(../images/banner-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4478,19 +4478,20 @@ p {
     border-right: 4px solid #FF630E;
     white-space: nowrap;
     overflow: hidden;
+    font-size: 53px !important;
 }
 
 .blink1{
-    animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 400ms steps(34) infinite;
-    -webkit-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 400ms steps(34) infinite;
-    -moz-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 400ms steps(34) infinite;
-    -ms-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 400ms steps(34) infinite;
-    -o-animation: typewriter 8s steps(34) 1s 1 both,
-               blinkCursor 400ms steps(34) infinite;
+    animation: typewriter 8s steps(35) 1s 1 both,
+               blinkCursor 400ms steps(35) infinite;
+    -webkit-animation: typewriter 8s steps(35) 1s 1 both,
+               blinkCursor 400ms steps(35) infinite;
+    -moz-animation: typewriter 8s steps(35) 1s 1 both,
+               blinkCursor 400ms steps(35) infinite;
+    -ms-animation: typewriter 8s steps(35) 1s 1 both,
+               blinkCursor 400ms steps(35) infinite;
+    -o-animation: typewriter 8s steps(35) 1s 1 both,
+               blinkCursor 400ms steps(35) infinite;
   }
 
   @keyframes typewriter {
@@ -4607,15 +4608,16 @@ p {
 }
 
 /* feature section of home page */
+#feature-main{
+    background: #e1e1e1 !important;
+}
+
 .feacture-section {
     height: 800px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.feature-circle-1, .feature-circle-2, .feature-circle-3 {
-    z-index: -90;
 }
 
 .feature-circle-3 {
@@ -4632,6 +4634,7 @@ p {
     width: 250px;
     height: 250px;
     background: red;
+    /* background: #FF630E; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -4641,7 +4644,7 @@ p {
 .feature-circle-1 {
     width: 300px;
     height: 300px;
-    background: green;
+    background: #130f40;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -4651,11 +4654,18 @@ p {
 }
 
 .features-1, .features-2, .features-3, .features-4, .features-5, .features-6, .features-7, .features-8, .features-9, .features-10, .features-11, .features-12 {
-    height: 120px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: #fff;
     background: #FF630E;
     font-weight: 600;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    transition: all .5s ease-in-out;
+    /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
+}
+
+.features-1:hover, .features-2:hover, .features-3:hover, .features-4:hover, .features-5:hover, .features-6:hover, .features-7:hover, .features-8:hover, .features-9:hover, .features-10:hover, .features-11:hover, .features-12:hover {
+    background: #ff620eb1;
 }
 
 .features-1 {
@@ -4728,4 +4738,8 @@ p {
     position: relative;
     top: 0;
     left: -300px;
+}
+
+#why-choose-area {
+    display: none;
 }

@@ -1633,4 +1633,55 @@
         width: 130px;
     }
 
+    .text{
+        border-right: 2px solid #FF630E;
+        font-size: 18px !important;
+    }
+
+    
+/* feature section of home page */
+
+#feacture-main, #feacture-main-2, #heading-4, #heading-2 {
+    display: none !important;
+}
+
+.feacture-section {
+    display: none;
+}
+
+.feature-circle-3, .feature-circle-2, .feature-circle-1 {
+    display: none;
+}
+
+.features-1, .features-2, .features-3, .features-4, .features-5, .features-6, .features-7, .features-8, .features-9, .features-10, .features-11, .features-12 {
+    display: none;
+}
+
+#why-choose-area {
+    display: block;
+}
+
+.pack {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.pack:is(div) {
+    margin: 0 !important;
+}
+
+.two-bg-area, .three-bg-area, .one-bg-area {
+    width: 100% !important;
+}
+
+.two-bg-area {
+    padding-right: 0px !important;
+    padding-left: 25px !important;
+}
+
+.feature- .choose-single {
+    height: 300px;
+    /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
+}
+
 }
