@@ -620,6 +620,7 @@
     .main-menu-wrap {
         display: flex;
         justify-content: space-between;
+        padding-inline: 25px;
     }
 
     .header-contact-info {
