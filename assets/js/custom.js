@@ -119,6 +119,9 @@
     ----------------------------------------------------*/
     $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
+        // if (scroll == 100) {
+        //     console.log(scroll);
+        // }
         if (scroll < 100) {
             $(".header-area").removeClass("sticky");
         } else {
